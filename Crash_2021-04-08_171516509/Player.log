@@ -1,0 +1,478 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/Temtem/Temtem_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/Temtem/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.14f1 (df5769635aab)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/Temtem/Temtem_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6172
+Begin MonoManager ReloadAssembly
+- Completed reload, in  1.845 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+New input system (experimental) initialized
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.339400 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 11.844500 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.136500 ms MarkObjects: 11.422400 ms  DeleteObjects: 0.012800 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2ff8 -> priority: 1 
+  Thread -> id: 116c -> priority: 1 
+  Thread -> id: 1d8 -> priority: 1 
+  Thread -> id: 1de4 -> priority: 1 
+Init Time: 4/8/2021 4:28:07 PM 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+TemtemVersion: v0.6.19 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+SpriteAtlasManager.atlasRequested wasn't listened to while BattleOutroTemtem requested. 
+(Filename:  Line: 251)
+
+[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 3501 unused Assets to reduce memory usage. Loaded Objects now: 222199.
+Total: 420.666200 ms (FindLiveObjects: 13.147400 ms CreateObjectMapping: 21.763700 ms MarkObjects: 382.876000 ms  DeleteObjects: 2.878700 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 222199.
+Total: 386.966500 ms (FindLiveObjects: 11.136600 ms CreateObjectMapping: 19.899700 ms MarkObjects: 355.504000 ms  DeleteObjects: 0.425700 ms)
+
+Tamer ID: 1660776 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 223002.
+Total: 387.161800 ms (FindLiveObjects: 11.555600 ms CreateObjectMapping: 20.289100 ms MarkObjects: 354.997800 ms  DeleteObjects: 0.318800 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 3)
+
+Unloading 293 unused Assets to reduce memory usage. Loaded Objects now: 241940.
+Total: 392.474700 ms (FindLiveObjects: 12.947500 ms CreateObjectMapping: 19.633100 ms MarkObjects: 359.084100 ms  DeleteObjects: 0.809700 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 5)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 247261.
+Total: 401.724300 ms (FindLiveObjects: 12.929000 ms CreateObjectMapping: 19.532900 ms MarkObjects: 368.986000 ms  DeleteObjects: 0.276000 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 5)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 255362.
+Total: 401.001700 ms (FindLiveObjects: 11.971100 ms CreateObjectMapping: 19.526900 ms MarkObjects: 369.175600 ms  DeleteObjects: 0.327600 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 7)
+
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 260213.
+Total: 409.103300 ms (FindLiveObjects: 11.846900 ms CreateObjectMapping: 20.262800 ms MarkObjects: 376.351300 ms  DeleteObjects: 0.641800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 8)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 260848.
+Total: 406.340700 ms (FindLiveObjects: 11.214600 ms CreateObjectMapping: 20.782900 ms MarkObjects: 374.059100 ms  DeleteObjects: 0.283700 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 11)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 269436.
+Total: 416.284300 ms (FindLiveObjects: 13.443600 ms CreateObjectMapping: 20.900100 ms MarkObjects: 381.597100 ms  DeleteObjects: 0.343100 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 11)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 275261.
+Total: 420.335200 ms (FindLiveObjects: 15.296100 ms CreateObjectMapping: 20.478300 ms MarkObjects: 384.273700 ms  DeleteObjects: 0.286700 ms)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 13)
+
+Unloading 1001 unused Assets to reduce memory usage. Loaded Objects now: 282363.
+Total: 432.745700 ms (FindLiveObjects: 13.241600 ms CreateObjectMapping: 20.635700 ms MarkObjects: 397.550400 ms  DeleteObjects: 1.317300 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 13)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 292767.
+Total: 432.049500 ms (FindLiveObjects: 16.431000 ms CreateObjectMapping: 20.603500 ms MarkObjects: 394.670800 ms  DeleteObjects: 0.343600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 14)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 293505.
+Total: 420.703800 ms (FindLiveObjects: 15.376200 ms CreateObjectMapping: 20.222300 ms MarkObjects: 384.745100 ms  DeleteObjects: 0.359700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 15)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 293812.
+Total: 424.408800 ms (FindLiveObjects: 15.439500 ms CreateObjectMapping: 20.555400 ms MarkObjects: 388.075800 ms  DeleteObjects: 0.337200 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 23)
+
+Unloading 990 unused Assets to reduce memory usage. Loaded Objects now: 303388.
+Total: 543.508400 ms (FindLiveObjects: 23.947200 ms CreateObjectMapping: 24.922500 ms MarkObjects: 492.810400 ms  DeleteObjects: 1.827800 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 23)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 304319.
+Total: 529.458400 ms (FindLiveObjects: 21.414200 ms CreateObjectMapping: 26.307900 ms MarkObjects: 481.119000 ms  DeleteObjects: 0.616800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 23)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 304319.
+Total: 522.963700 ms (FindLiveObjects: 16.514700 ms CreateObjectMapping: 22.625000 ms MarkObjects: 483.356600 ms  DeleteObjects: 0.466900 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 24)
+
+Unloading 2784 unused Assets to reduce memory usage. Loaded Objects now: 303812.
+Total: 589.312600 ms (FindLiveObjects: 20.447300 ms CreateObjectMapping: 24.788000 ms MarkObjects: 540.550500 ms  DeleteObjects: 3.526300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 24)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 303812.
+Total: 543.626800 ms (FindLiveObjects: 17.403700 ms CreateObjectMapping: 23.635400 ms MarkObjects: 502.215900 ms  DeleteObjects: 0.371100 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 32)
+
+Unloading 285 unused Assets to reduce memory usage. Loaded Objects now: 313829.
+Total: 588.117300 ms (FindLiveObjects: 20.276400 ms CreateObjectMapping: 27.296000 ms MarkObjects: 539.466700 ms  DeleteObjects: 1.077700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 32)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 313829.
+Total: 574.408800 ms (FindLiveObjects: 17.769600 ms CreateObjectMapping: 23.007500 ms MarkObjects: 533.198200 ms  DeleteObjects: 0.432900 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 40)
+
+Unloading 1974 unused Assets to reduce memory usage. Loaded Objects now: 320300.
+Total: 608.661900 ms (FindLiveObjects: 22.712700 ms CreateObjectMapping: 28.744900 ms MarkObjects: 554.010600 ms  DeleteObjects: 3.193200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 40)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 320300.
+Total: 567.231500 ms (FindLiveObjects: 20.017800 ms CreateObjectMapping: 25.626900 ms MarkObjects: 521.225600 ms  DeleteObjects: 0.360700 ms)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 43)
+
+Unloading 4050 unused Assets to reduce memory usage. Loaded Objects now: 325642.
+Total: 641.641700 ms (FindLiveObjects: 26.294200 ms CreateObjectMapping: 29.463500 ms MarkObjects: 581.845700 ms  DeleteObjects: 4.037900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 43)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 325642.
+Total: 590.616300 ms (FindLiveObjects: 20.450100 ms CreateObjectMapping: 26.780300 ms MarkObjects: 542.985900 ms  DeleteObjects: 0.399400 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 51)
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 335507.
+Total: 667.274000 ms (FindLiveObjects: 26.927500 ms CreateObjectMapping: 29.869300 ms MarkObjects: 609.837900 ms  DeleteObjects: 0.638900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 51)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 335507.
+Total: 588.406300 ms (FindLiveObjects: 21.239700 ms CreateObjectMapping: 28.308200 ms MarkObjects: 538.474700 ms  DeleteObjects: 0.383200 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 51)
+
+Unloading 2967 unused Assets to reduce memory usage. Loaded Objects now: 332797.
+Total: 635.748500 ms (FindLiveObjects: 25.657000 ms CreateObjectMapping: 28.534300 ms MarkObjects: 577.990900 ms  DeleteObjects: 3.565800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 51)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 332797.
+Total: 614.282200 ms (FindLiveObjects: 20.901900 ms CreateObjectMapping: 26.914900 ms MarkObjects: 565.999800 ms  DeleteObjects: 0.464900 ms)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 58)
+
+Unloading 1362 unused Assets to reduce memory usage. Loaded Objects now: 342044.
+Total: 633.875600 ms (FindLiveObjects: 24.903000 ms CreateObjectMapping: 27.441600 ms MarkObjects: 578.895100 ms  DeleteObjects: 2.635400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 58)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 342044.
+Total: 591.804500 ms (FindLiveObjects: 21.630700 ms CreateObjectMapping: 27.014100 ms MarkObjects: 542.758100 ms  DeleteObjects: 0.400900 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 58)
+
+Unloading 1071 unused Assets to reduce memory usage. Loaded Objects now: 341214.
+Total: 618.519700 ms (FindLiveObjects: 23.953300 ms CreateObjectMapping: 27.387500 ms MarkObjects: 565.225600 ms  DeleteObjects: 1.952900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 58)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 341214.
+Total: 632.932500 ms (FindLiveObjects: 20.845300 ms CreateObjectMapping: 27.793600 ms MarkObjects: 583.813600 ms  DeleteObjects: 0.479200 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 60)
+
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 342847.
+Total: 635.066500 ms (FindLiveObjects: 23.070100 ms CreateObjectMapping: 30.158000 ms MarkObjects: 581.121000 ms  DeleteObjects: 0.716600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 60)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 342847.
+Total: 614.937100 ms (FindLiveObjects: 21.292800 ms CreateObjectMapping: 28.432400 ms MarkObjects: 564.752200 ms  DeleteObjects: 0.459200 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 62)
+
+Unloading 674 unused Assets to reduce memory usage. Loaded Objects now: 344911.
+Total: 640.918400 ms (FindLiveObjects: 27.781800 ms CreateObjectMapping: 28.663900 ms MarkObjects: 582.806500 ms  DeleteObjects: 1.665800 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 62)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 344911.
+Total: 611.089700 ms (FindLiveObjects: 22.303200 ms CreateObjectMapping: 26.976300 ms MarkObjects: 561.391100 ms  DeleteObjects: 0.418500 ms)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 70)
+
+Unloading 3687 unused Assets to reduce memory usage. Loaded Objects now: 350852.
+Total: 697.037900 ms (FindLiveObjects: 29.957400 ms CreateObjectMapping: 31.381400 ms MarkObjects: 631.051900 ms  DeleteObjects: 4.646300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 70)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 350852.
+Total: 607.871600 ms (FindLiveObjects: 25.180500 ms CreateObjectMapping: 28.805800 ms MarkObjects: 553.417900 ms  DeleteObjects: 0.466700 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 70)
+
+Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 351598.
+Total: 630.100400 ms (FindLiveObjects: 25.743300 ms CreateObjectMapping: 28.570800 ms MarkObjects: 574.929400 ms  DeleteObjects: 0.856500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 70)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 351598.
+Total: 594.724600 ms (FindLiveObjects: 22.201000 ms CreateObjectMapping: 29.220000 ms MarkObjects: 542.811500 ms  DeleteObjects: 0.491500 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 73)
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 354259.
+Total: 630.834500 ms (FindLiveObjects: 28.460500 ms CreateObjectMapping: 31.768200 ms MarkObjects: 569.914700 ms  DeleteObjects: 0.690500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 73)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 354259.
+Total: 628.715300 ms (FindLiveObjects: 21.359400 ms CreateObjectMapping: 28.789800 ms MarkObjects: 578.002400 ms  DeleteObjects: 0.563000 ms)
+
+D3D11: Failed to create RenderTexture (960 x 540 fmt 9 aa 1), error 0x8007000e 
+(Filename:  Line: 207)
+
+D3D11: Failed to create RenderTexture (480 x 270 fmt 9 aa 1), error 0x8007000e 
+(Filename:  Line: 207)
+
+D3D11: Failed to create RenderTexture (1920 x 1080 fmt 9 aa 1), error 0x8007000e 
+(Filename:  Line: 207)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Warning/GameAnalytics: Validation fail - progression event: Invalid progression status. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 75)
+
+Unloading 1985 unused Assets to reduce memory usage. Loaded Objects now: 356368.
+Total: 657.917700 ms (FindLiveObjects: 28.389300 ms CreateObjectMapping: 29.832900 ms MarkObjects: 596.464500 ms  DeleteObjects: 3.230600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 75)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 356368.
+Total: 619.599900 ms (FindLiveObjects: 22.354100 ms CreateObjectMapping: 27.993800 ms MarkObjects: 568.828600 ms  DeleteObjects: 0.422700 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 76)
+
+Unloading 414 unused Assets to reduce memory usage. Loaded Objects now: 357874.
+Total: 631.746000 ms (FindLiveObjects: 29.568700 ms CreateObjectMapping: 32.279800 ms MarkObjects: 568.505500 ms  DeleteObjects: 1.391700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 76)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 357874.
+Total: 598.423900 ms (FindLiveObjects: 23.663800 ms CreateObjectMapping: 29.698300 ms MarkObjects: 544.655800 ms  DeleteObjects: 0.405500 ms)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 76)
+
+Unloading 139 unused Assets to reduce memory usage. Loaded Objects now: 357984.
+Total: 694.214200 ms (FindLiveObjects: 24.231900 ms CreateObjectMapping: 28.714200 ms MarkObjects: 639.986300 ms  DeleteObjects: 1.280900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 76)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 357984.
+Total: 640.692900 ms (FindLiveObjects: 30.248400 ms CreateObjectMapping: 29.673400 ms MarkObjects: 580.298800 ms  DeleteObjects: 0.471700 ms)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Program Files (x86)\Steam\steamapps\common\Temtem;C:\Program Files (x86)\Steam\steamapps\common\Temtem;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'rqflo'
+OS-Version: 10.0.0
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem.exe:Temtem.exe (00007FF674650000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.14.22377
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC8B410000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC8A700000), size: 774144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.804
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC89030000), size: 2920448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.804
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFC86420000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
+C:\WINDOWS\SYSTEM32\AcLayers.DLL:AcLayers.DLL (00007FFC4BDD0000), size: 4800512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC89DB0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC89E50000), size: 1703936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC88D40000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC8A240000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC88B80000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC893D0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC88F30000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC8A390000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC8B320000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC89FF0000), size: 638976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC8AAA0000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\sfc.dll:sfc.dll (00000191351B0000), size: 12288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINSPOOL.DRV:WINSPOOL.DRV (00007FFC72BA0000), size: 581632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\sfc_os.DLL:sfc_os.DLL (00007FFC71210000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\SortWindows61.dll:SortWindows61.dll (00007FFC83900000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFC8A350000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\UnityPlayer.dll:UnityPlayer.dll (00007FFC48B90000), size: 26861568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.14.22377
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC8A970000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC81FB0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC895E0000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC89940000), size: 4624384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFC89300000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFC88B50000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC8ABD0000), size: 7610368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC8A170000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.804
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC88D70000), size: 1437696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC8A3F0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC72C30000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFC5E410000), size: 1204224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC87440000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC7A600000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC5E930000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC86AB0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC89350000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC86510000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFC8A530000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFC86CB0000), size: 7929856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFC884F0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC88A90000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFC4B410000), size: 7786496 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFC8A520000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\mswsock.dll:mswsock.dll (00007FFC88270000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFC8A5E0000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC84BB0000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC875C0000), size: 995328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\DriverStore\FileRepository\nvaci.inf_amd64_9d24232ad555eeec\nvldumdx.dll:nvldumdx.dll (00007FFC5AC50000), size: 1069056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.6172
+C:\WINDOWS\SYSTEM32\msasn1.dll:msasn1.dll (00007FFC88670000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFC7DBA0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFC88440000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\WINTRUST.DLL:WINTRUST.DLL (00007FFC88ED0000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.804
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFC8A500000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFC88450000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFC87C10000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\DriverStore\FileRepository\nvaci.inf_amd64_9d24232ad555eeec\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC0B7B0000), size: 77422592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 27.21.14.6172
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC7EE50000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC74A70000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC749D0000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC74C70000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC73E50000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC74AB0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC88A50000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2102.4-0\MpOav.dll:MpOav.dll (00007FFC72F10000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2102.4
+C:\WINDOWS\SYSTEM32\mscms.dll:mscms.dll (00007FFC84340000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\ColorAdapterClient.dll:ColorAdapterClient.dll (00007FFC841F0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\icm32.dll:icm32.dll (00007FFC77B10000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FFC829D0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\DEVOBJ.dll:DEVOBJ.dll (00007FFC888A0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\inputhost.dll:inputhost.dll (00007FFC76390000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFC84080000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.867
+C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFC86110000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFC85A30000), size: 3530752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC84A50000), size: 1392640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFC878A0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_7d6ad0397c5dc3fd\igd10iumd64.dll:igd10iumd64.dll (00007FFC7DD70000), size: 15716352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.20.100.6911
+C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (00007FFC88560000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (00007FFC88520000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_7d6ad0397c5dc3fd\igdgmm64.dll:igdgmm64.dll (00007FFC7DC50000), size: 1179648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.20.100.6911
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_7d6ad0397c5dc3fd\igc64.dll:igc64.dll (00007FFC7B730000), size: 37093376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.20.100.6911
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFC85840000), size: 1994752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC869A0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFC764F0000), size: 1028096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\bthprops.cpl:bthprops.cpl (00007FFC4EBA0000), size: 286720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.388
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_ca00b6081b84eb1d\comctl32.dll:comctl32.dll (00007FFC71F70000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.844
+C:\WINDOWS\SYSTEM32\xinput1_2.DLL:xinput1_2.DLL (00000000001A0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.14.701.0
+C:\WINDOWS\SYSTEM32\xinput1_1.DLL:xinput1_1.DLL (00000000001C0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.12.589.0
+C:\WINDOWS\SYSTEM32\xinput9_1_0.DLL:xinput9_1_0.DLL (00007FFC79A70000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem_Data\Plugins\x86_64\fmodstudio.dll:fmodstudio.dll (00007FFC4F940000), size: 3350528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 0.2.1.6
+C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FFC69110000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\SYSTEM32\winmmbase.dll:winmmbase.dll (00007FFC70420000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC814C0000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFC81550000), size: 1593344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFC889C0000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFC889A0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFC866D0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFC66A80000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.25.65.21
+C:\Program Files (x86)\Steam\steamclient64.dll:steamclient64.dll (00007FFC43650000), size: 21295104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.43.54.47
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC87F60000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC71300000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files (x86)\Steam\tier0_s64.dll:tier0_s64.dll (00007FFC66880000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.43.54.47
+C:\Program Files (x86)\Steam\vstdlib_s64.dll:vstdlib_s64.dll (00007FFC66800000), size: 507904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.43.54.47
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC88A10000), size: 245760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.662
+C:\Program Files (x86)\Steam\gameoverlayrenderer64.dll:gameoverlayrenderer64.dll (00007FFC524E0000), size: 2007040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.43.54.47
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC4A530000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC3D760000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC81DD0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFC84700000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC87FB0000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC8A460000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC3D740000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC7EC70000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC77750000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem_Data\Plugins\x86_64\sqlite3.dll:sqlite3.dll (0000000180000000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.12.0.0
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00000194DA1E0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC7ECF0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC7FD60000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFC814B0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC70450000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFC49117719 (UnityPlayer) UnityMain
+0x00007FFC491152AA (UnityPlayer) UnityMain
+0x00007FFC491119BC (UnityPlayer) UnityMain
+0x00007FFC49111285 (UnityPlayer) UnityMain
+0x00007FFC49238D08 (UnityPlayer) UnityMain
+0x00007FFC49238B04 (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC4909892D)
+0x00007FFC4909892D (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC4909970D)
+0x00007FFC4909970D (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFC490997E8)
+0x00007FFC490997E8 (UnityPlayer) (function-name not available)
+0x00007FFC493BF978 (UnityPlayer) UnityMain
+0x00007FFC8A717034 (KERNEL32) BaseThreadInitThunk
+0x00007FFC8B462651 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/rqflo/AppData/Local/Temp/Crema/Temtem/Crashes

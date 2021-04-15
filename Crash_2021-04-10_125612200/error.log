@@ -1,0 +1,1302 @@
+﻿Temtem by Crema [version: Unity 2019.4.14f1_df5769635aab]
+
+UnityPlayer.dll caused an Access Violation (0xc0000005)
+  in module UnityPlayer.dll at 0033:b0af7719.
+
+Error occurred at 2021-04-10_205704.
+C:\Program Files (x86)\Steam\steamapps\common\Temtem\Temtem.exe, run by rqflo.
+
+84% physical memory in use.
+8035 MB physical memory [1238 MB free].
+10099 MB process peak paging file [10061 MB used].
+3911 MB process peak working set [3408 MB used].
+System Commit Total/Limit/Peak: 14482MB/16227MB/16227MB
+System Physical Total/Available: 8035MB/1238MB
+System Process Count: 195
+System Thread Count: 2193
+System Handle Count: 76980
+Disk space data for 'C:\Users\rqflo\AppData\Local\Temp\Crema\Temtem\Crashes\Crash_2021-04-10_125612200\': 552536473600 bytes free of 999007711232 total.
+
+Write to location 0000000000000000 caused an access violation.
+
+Context:
+RDI:    0x0000000000000000  RSI: 0x0000000000401000  RAX:   0x0000000000000000
+RBX:    0x00007fffb1d34300  RCX: 0x0000000000000000  RDX:   0x00000000000005af
+RIP:    0x00007fffb0af7719  RBP: 0x0000000000000000  SegCs: 0x0000000000000033
+EFlags: 0x0000000000010202  RSP: 0x00000095a66cf3b0  SegSs: 0x000000000000002b
+R8:     0x000000000000005a  R9:  0x000000000000005e  R10:   0x0000000000000096
+R11:    0x0000000000000246  R12: 0x0000000000400000  R13:   0x0000000000000001
+R14:    0x0000000000000010  R15: 0x00007fffb1d34420
+
+
+Bytes at CS:EIP:
+48 89 28 48 89 68 08 48 89 48 10 48 8b 8b 70 01 
+
+*** WARNING ***
+Managed call stack frames will be incorrect or missing.
+The Mono DLL at 'C:\Program Files (x86)\Steam\steamapps\common\Temtem\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll' does not provide out-of-process stack information support.
+Upgrade to a newer version of the Mono Scripting Runtime for more detailed debug information.
+
+
+Stack Trace of Crashed Thread 12032:
+0x00007FFFB0AF7719 (UnityPlayer) UnityMain
+0x00007FFFB0AF52AA (UnityPlayer) UnityMain
+0x00007FFFB0AF19BC (UnityPlayer) UnityMain
+0x00007FFFB0AF1285 (UnityPlayer) UnityMain
+0x00007FFFB0C18D08 (UnityPlayer) UnityMain
+0x00007FFFB0C18B04 (UnityPlayer) UnityMain
+0x00007FFFB0C186B9 (UnityPlayer) UnityMain
+0x00007FFFB0C26723 (UnityPlayer) UnityMain
+0x00007FFFB0C2683C (UnityPlayer) UnityMain
+0x00007FFFB0E6466E (UnityPlayer) UnityMain
+0x00007FFFB0E632E4 (UnityPlayer) UnityMain
+0x00007FFFB0D0E75F (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB084689A)
+0x00007FFFB084689A (UnityPlayer) (function-name not available)
+0x00007FFFB0D0F5A0 (UnityPlayer) UnityMain
+0x00007FFFB0D0F8BC (UnityPlayer) UnityMain
+0x00007FFFB0D0F929 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+Stacks for Running Threads:
+
+Call Stack for Thread 2868:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A6BE67)
+0x00007FFFB0A6BE67 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A55D93)
+0x00007FFFB0A55D93 (UnityPlayer) (function-name not available)
+0x00007FFFB0D06512 (UnityPlayer) UnityMain
+0x00007FFFB0CF7DA7 (UnityPlayer) UnityMain
+0x00007FFFB0CF7E43 (UnityPlayer) UnityMain
+0x00007FFFB0CFA27C (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0AB001E)
+0x00007FFFB0AB001E (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0AAED7A)
+0x00007FFFB0AAED7A (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0AB2E2C)
+0x00007FFFB0AB2E2C (UnityPlayer) (function-name not available)
+0x00007FFFB0AB691B (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF77D5311F2)
+0x00007FF77D5311F2 (Temtem) (function-name not available)
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2132:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB54B5E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFFB55A42DD (mono-2.0-bdwgc) mono_gc_reference_queue_new
+0x00007FFFB55A30B5 (mono-2.0-bdwgc) mono_callspec_parse
+0x00007FFFB5566398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8596:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9484:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6276:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2216:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2084:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10388:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8912:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3976:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1344:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11156:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8972:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10380:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10084:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12152:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4868:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4540:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 132:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2316:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10012:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8452:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4892:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12036:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11780:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0CB3070 (UnityPlayer) UnityMain
+0x00007FFFB0CB4140 (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 12160:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0DA09EA (UnityPlayer) UnityMain
+0x00007FFFB0CF6FAC (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2152:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+0x00007FFFB0BAB6FD (UnityPlayer) UnityMain
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1748:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8328:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6876:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7776:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7384:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF882866D2 (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF882855AA (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF8827A7ED (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF8785149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2036:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1628:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4264:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8672:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2736:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5680:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC5379D (ntdll) RtlWaitOnAddress
+0x00007FFFFEC53652 (ntdll) RtlWaitOnAddress
+0x00007FFFFEC5346D (ntdll) RtlWaitOnAddress
+0x00007FFFFEC1FCB4 (ntdll) RtlEnterCriticalSection
+0x00007FFFFEC1FAE2 (ntdll) RtlEnterCriticalSection
+0x00007FFFB0AF7DB9 (UnityPlayer) UnityMain
+0x00007FFFB0AF660E (UnityPlayer) UnityMain
+0x00007FFFB0AF1D10 (UnityPlayer) UnityMain
+0x00007FFFB0AF1618 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09C0218)
+0x00007FFFB09C0218 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09C2421)
+0x00007FFFB09C2421 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A729E8)
+0x00007FFFB0A729E8 (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A7970D)
+0x00007FFFB0A7970D (UnityPlayer) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A797E8)
+0x00007FFFB0A797E8 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11876:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 828:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9808:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7592:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3892:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF882866D2 (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF882855AA (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF8827A7ED (nvwgf2umx) cask::ShaderList<cask::SoftmaxShader,cask::SoftmaxOperation>::availableShaders
+0x00007FFF8785149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8976:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5284:
+0x00007FFFFEC8D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFFFC590D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFFFC590C3E (KERNELBASE) WaitForMultipleObjects
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB0A946E3)
+0x00007FFFB0A946E3 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1868:
+0x00007FFFFEC8D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFFFC590D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFFF8757FFF (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF8757CE9 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF8757471 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF8756744 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF875996B (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF8756C28 (CoreMessaging) CreateDispatcherQueueController
+0x00007FFFF878EBF5 (CoreMessaging) CoreUICreateEx
+0x00007FFFF878DA7B (CoreMessaging) CoreUICreateEx
+0x00007FFFEADE25BA (inputhost) Ordinal2604
+0x00007FFFEADE6809 (inputhost) DllGetActivationFactory
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6692:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7488:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF8749AAF7 (nvwgf2umx) NVENCODEAPI_Thunk
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11960:
+0x00007FFFFEC8D764 (ntdll) NtWaitForMultipleObjects
+0x00007FFFFC590D40 (KERNELBASE) WaitForMultipleObjectsEx
+0x00007FFFFC590C3E (KERNELBASE) WaitForMultipleObjects
+0x00007FFF875889F7 (nvwgf2umx) NVDEV_Thunk
+0x00007FFF8785149A (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6680:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9292:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10228:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 5404:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFF878EEA4D (nvwgf2umx) cask::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>::SafeEnum<cask::GemmChip_ENUMCLASS_SCOPEWRAPPER>
+0x00007FFF88807AAC (nvwgf2umx) OpenAdapter12
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1484:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB14995B2 (UnityPlayer) UnityMain
+0x00007FFFB148080F (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10200:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09B0F87)
+0x00007FFFB09B0F87 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6004:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09B0F87)
+0x00007FFFB09B0F87 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 4804:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09B0F87)
+0x00007FFFB09B0F87 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10928:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB13FDEC2 (UnityPlayer) UnityMain
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFB09B0F87)
+0x00007FFFB09B0F87 (UnityPlayer) (function-name not available)
+0x00007FFFB0D9F978 (UnityPlayer) UnityMain
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 3880:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB54B5E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFFB55679B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC7D27781D)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC7D27781D)
+0x000001EC7D27781D ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000000004)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000000004)
+0x0000000000000004 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 3416:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB54B5E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFFB55679B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC7D27781D)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC7D27781D)
+0x000001EC7D27781D ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000000009)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000000009)
+0x0000000000000009 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 6120:
+0x00007FFFFEC8D294 (ntdll) NtDelayExecution
+0x00007FFFFC58D84E (KERNELBASE) SleepEx
+0x00007FFFB502D05A (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB5023C1A (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11924:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB502F9F9 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB5023C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 10692:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB502CD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB4F42453 (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFFB5023C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11556:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB502CD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB4F6939B (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFFB5023C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 8144:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB502CD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB4F686BE (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFFB4F68265 (fmodstudio) FMOD_Studio_VCA_SetVolume
+0x00007FFFB5023C01 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 2004:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB54B112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFFB5567293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD3E62883)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD3E62883)
+0x000001ECD3E62883 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 9304:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB54B112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFFB5567293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD3E62883)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD3E62883)
+0x000001ECD3E62883 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 4628:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB54B112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFFB5567293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD3E62883)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD3E62883)
+0x000001ECD3E62883 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECC99922E0)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECC99922E0)
+0x000001ECC99922E0 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 88D8FC6300000000)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 88D8FC6300000000)
+0x88D8FC6300000000 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 88D8FC63175F4D7A)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 88D8FC63175F4D7A)
+0x88D8FC63175F4D7A ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 88D8FC6318907A7A)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 88D8FC6318907A7A)
+0x88D8FC6318907A7A ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD24767A0)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD24767A0)
+0x000001ECD24767A0 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A771F460)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A771F460)
+0x00000095A771F460 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A771F3F0)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A771F3F0)
+0x00000095A771F3F0 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 8200:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB54B5E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFFB55679B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC7D27781D)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC7D27781D)
+0x000001EC7D27781D ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000000FFFFFFFF)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000000FFFFFFFF)
+0x00000000FFFFFFFF ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 11744:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFFBAB80FC)
+0x00007FFFFBAB80FC (mswsock) (function-name not available)
+0x00007FFFFBABC8CB (mswsock) NSPStartup
+0x00007FFFFD851E51 (WS2_32) recv
+0x00007FFFB55ABC8D (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFFB555233C (mono-2.0-bdwgc) mono_opcode_value
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD414F4F7)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD414F4F7)
+0x000001ECD414F4F7 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB89E027B0)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB89E027B0)
+0x000001EB89E027B0 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A791F450)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A791F450)
+0x00000095A791F450 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A791F450)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A791F450)
+0x00000095A791F450 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC00000000)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC00000000)
+0x000001EC00000000 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A791F520)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A791F520)
+0x00000095A791F520 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000000001)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000000001)
+0x0000000000000001 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A791F378)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A791F378)
+0x00000095A791F378 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB23CA4710)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB23CA4710)
+0x000001EB23CA4710 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A791F450)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A791F450)
+0x00000095A791F450 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 9164:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB54B5E8F (mono-2.0-bdwgc) mono_conc_hashtable_remove
+0x00007FFFB55679B3 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC7D27781D)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC7D27781D)
+0x000001EC7D27781D ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000000000000BC00)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000000000000BC00)
+0x000000000000BC00 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 8844:
+0x00007FFFFEC90664 (ntdll) NtWaitForWorkViaWorkerFactory
+0x00007FFFFEC42DC7 (ntdll) TpReleaseCleanupGroupMembers
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 9964:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFFBAB80FC)
+0x00007FFFFBAB80FC (mswsock) (function-name not available)
+0x00007FFFFBABF4DE (mswsock) Tcpip4_WSHAddressToString
+0x00007FFFFD8516F7 (WS2_32) select
+0x00007FFFB54A96C0 (mono-2.0-bdwgc) mono_poll
+0x00007FFFB556CC95 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB556D727 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 6948:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+0x00007FFFFC55A34E (KERNELBASE) WaitForSingleObjectEx
+0x00007FFFB502CD9F (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB5023BE1 (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11564:
+0x00007FFFFEC8D294 (ntdll) NtDelayExecution
+0x00007FFFFC58D84E (KERNELBASE) SleepEx
+0x00007FFFB502D05A (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB5023C1A (fmodstudio) FMOD_File_SetDiskBusy
+0x00007FFFB502C396 (fmodstudio) FMOD_Thread_SetAttributes
+0x00007FFFB509E7B1 (fmodstudio) FMOD::SystemI::createMemoryFile
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11332:
+0x00007FFFFEC8CC94 (ntdll) ZwWaitForSingleObject
+ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFFFBAB80FC)
+0x00007FFFFBAB80FC (mswsock) (function-name not available)
+0x00007FFFFBACDE0B (mswsock) Tcpip6_WSHGetWildcardSockaddr
+0x00007FFFFD853E74 (WS2_32) recvfrom
+0x00007FFFB55ABE1A (mono-2.0-bdwgc) mono_object_is_alive
+0x00007FFFB55520A2 (mono-2.0-bdwgc) mono_opcode_value
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB973A9383)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB973A9383)
+0x000001EB973A9383 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000001208)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000001208)
+0x0000000000001208 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC7F149020)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC7F149020)
+0x000001EC7F149020 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EC828FEC10)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EC828FEC10)
+0x000001EC828FEC10 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000001208)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000001208)
+0x0000000000001208 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB4630DEA8)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB4630DEA8)
+0x000001EB4630DEA8 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000009500000010)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000009500000010)
+0x0000009500000010 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000000000000001)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000000000000001)
+0x0000000000000001 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 0000009500000000)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 0000009500000000)
+0x0000009500000000 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 00000095A821F250)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 00000095A821F250)
+0x00000095A821F250 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB4630DEA8)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB4630DEA8)
+0x000001EB4630DEA8 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB23CBA190)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB23CBA190)
+0x000001EB23CBA190 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001EB4630DEA8)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001EB4630DEA8)
+0x000001EB4630DEA8 ((<unknown>)) (function-name not available)
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECCB0ACCF0)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECCB0ACCF0)
+0x000001ECCB0ACCF0 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 3848:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB54B112C (mono-2.0-bdwgc) mono_threads_attach_tools_thread
+0x00007FFFB5567293 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+ERROR: SymGetSymFromAddr64, GetLastError: 'The specified module could not be found.' (Address: 000001ECD3E62883)
+ERROR: SymGetModuleInfo64, GetLastError: 'A dynamic link library (DLL) initialization routine failed.' (Address: 000001ECD3E62883)
+0x000001ECD3E62883 ((<unknown>)) (function-name not available)
+
+
+Call Stack for Thread 956:
+0x00007FFFFEC90664 (ntdll) NtWaitForWorkViaWorkerFactory
+0x00007FFFFEC42DC7 (ntdll) TpReleaseCleanupGroupMembers
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 11704:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB556BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB556BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 7216:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB556BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB556BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+Call Stack for Thread 1372:
+0x00007FFFFEC90604 (ntdll) ZwWaitForAlertByThreadId
+0x00007FFFFEC54295 (ntdll) RtlSleepConditionVariableCS
+0x00007FFFFC5AB9D9 (KERNELBASE) SleepConditionVariableCS
+0x00007FFFB556BA37 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB556BDE8 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566398 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFB5566126 (mono-2.0-bdwgc) mono_threads_set_shutting_down
+0x00007FFFFCF37034 (KERNEL32) BaseThreadInitThunk
+0x00007FFFFEC42651 (ntdll) RtlUserThreadStart
+
+
+
+
+Stack Memory [0x00000095A66CF3B0-0x00000095A66D0000]:
+0xa66cf3b0: 00401000 00000000 00400000 00000000 ..@.......@.....
+0xa66cf3c0: 00400000 00000000 00400000 00000000 ..@.......@.....
+0xa66cf3d0: 00000010 00000000 b0af19bc 00007fff ................
+0xa66cf3e0: b1d23260 00007fff 00000048 00000000 `2......H.......
+0xa66cf3f0: 00000000 00000000 000b5900 00000000 .........Y......
+0xa66cf400: 00000000 00000000 000b5900 00000000 .........Y......
+0xa66cf410: 00000000 00000000 b0da1533 00007fff ........3.......
+0xa66cf420: b1d344c0 00007fff b0af532f 00007fff .D....../S......
+0xa66cf430: 00000000 00000000 00000058 00000000 ........X.......
+0xa66cf440: 00000000 00000000 b0da0c62 00007fff ........b.......
+0xa66cf450: 00000010 00000000 00000000 00000000 ................
+0xa66cf460: 00400000 00000000 b1d34300 00007fff ..@......C......
+0xa66cf470: b1d344c0 00007fff b0af52aa 00007fff .D.......R......
+0xa66cf480: 00000000 00000000 00400000 00000000 ..........@.....
+0xa66cf490: 00000010 00000000 954100a0 000001ea ..........A.....
+0xa66cf4a0: 00400000 00000000 b0af19bc 00007fff ..@.............
+0xa66cf4b0: b1d23260 00007fff 0000001c 00000000 `2..............
+0xa66cf4c0: 00400000 00000000 b0af1d10 00007fff ..@.............
+0xa66cf4d0: a66cf5a8 00000095 00000048 00000000 ..l.....H.......
+0xa66cf4e0: 00000057 00000000 b09cbd74 00007fff W.......t.......
+0xa66cf4f0: f01b15e0 000001e9 95aa6660 000001ea ........`f......
+0xa66cf500: 9540ff60 000001ea f01b1590 000001e9 `.@.............
+0xa66cf510: 0000001c 00000000 b0af1285 00007fff ................
+0xa66cf520: 00400000 00000000 00400000 00000000 ..@.......@.....
+0xa66cf530: 00000000 00000000 0000000a 00000000 ................
+0xa66cf540: 00000000 00000000 b199c004 00007fff ................
+0xa66cf550: 00000010 000001e9 90b14530 000001ea ........0E......
+0xa66cf560: 90b42400 000001ea b0c18d08 00007fff .$..............
+0xa66cf570: f01b1590 000001e9 00000000 00000000 ................
+0xa66cf580: 00000000 00000000 00000000 00000000 ................
+0xa66cf590: 000000be 000001ea 00001d2b 00000000 ........+.......
+0xa66cf5a0: 00000001 00000000 90b3dec0 000001ea ................
+0xa66cf5b0: 00000000 00000000 b0c18b04 00007fff ................
+0xa66cf5c0: 00000000 00000000 93e051c0 000001ea .........Q......
+0xa66cf5d0: f01b1590 000001e9 00000000 00000000 ................
+0xa66cf5e0: 00000000 00000000 00000000 00000000 ................
+0xa66cf5f0: f01b1590 000001e9 b0c186b9 00007fff ................
+0xa66cf600: a66cf690 00000095 90b42400 000001ea ..l......$......
+0xa66cf610: 00000000 00000000 90b14530 000001ea ........0E......
+0xa66cf620: cafba260 000001ed 00000000 00000000 `...............
+0xa66cf630: a66cf710 00000095 b0c26723 00007fff ..l.....#g......
+0xa66cf640: b0017ab0 000001e9 00055570 00000000 .z......pU......
+0xa66cf650: 00000000 00000000 90b14530 000001ea ........0E......
+0xa66cf660: 00055570 000001ea 00000000 000001ed pU..............
+0xa66cf670: a66cf6a0 00000095 00000000 00000000 ..l.............
+0xa66cf680: 0009ca34 00000000 f01bf760 000001e9 4.......`.......
+0xa66cf690: 90b42400 000001ea 00000016 00007fff .$..............
+0xa66cf6a0: b0c26190 00007fff b0c25bd0 00007fff .a.......[......
+0xa66cf6b0: 90b14530 000001ea 00000002 00000000 0E..............
+0xa66cf6c0: 70d2a360 000001eb 00000000 00000000 `..p............
+0xa66cf6d0: cafba260 000001ed cafba260 000001ed `.......`.......
+0xa66cf6e0: 00000001 00000000 b0c2683c 00007fff ........<h......
+0xa66cf6f0: 0009ca34 00000000 cafba310 000001ed 4...............
+0xa66cf700: 00000000 00000000 ca728cc0 000001ed ..........r.....
+0xa66cf710: 00000000 00000000 00000000 000001e9 ................
+0xa66cf720: 00000000 00000000 00000000 00000000 ................
+0xa66cf730: f01bf760 000001e9 b0e6466e 00007fff `.......nF......
+0xa66cf740: 95aa6650 000001ea 00000000 00000000 Pf..............
+0xa66cf750: 00000002 00000000 0009ca01 00000000 ................
+0xa66cf760: a66cf790 00000095 a66cf808 00000095 ..l.......l.....
+0xa66cf770: cafba260 000001ed b0d0d685 00007fff `...............
+0xa66cf780: 00000003 00000095 0009ca34 00007fff ........4.......
+0xa66cf790: 70d2a360 000001eb d0760030 000001e9 `..p....0.v.....
+0xa66cf7a0: 0000005b 00000000 1d98ce7d 831ae21e [.......}.......
+0xa66cf7b0: 0000000c 00000000 ca860590 000001ed ................
+0xa66cf7c0: f01bf760 000001e9 00000120 00000000 `....... .......
+0xa66cf7d0: a66cf910 00000095 00000001 00000000 ..l.............
+0xa66cf7e0: a66cf879 00000095 b0e632e4 00007fff y.l......2......
+0xa66cf7f0: 00000010 00000000 0009ca34 000001ed ........4.......
+0xa66cf800: 0000004e 00000000 00000000 00000000 N...............
+0xa66cf810: 00000001 00000000 00000000 00000000 ................
+0xa66cf820: 00000001 00000000 b0af4b97 00007fff .........K......
+0xa66cf830: 00000001 41500000 d0760670 000001e9 ......PAp.v.....
+0xa66cf840: 00000001 00007fff 0000018c 00000000 ................
+0xa66cf850: 00000318 00000000 d0760030 000001e9 ........0.v.....
+0xa66cf860: 00000001 00007fff 0000018c 00000000 ................
+0xa66cf870: 00000318 00000000 b0d7b25f 00007fff ........_.......
+0xa66cf880: 00000000 00000000 00000000 00000000 ................
+0xa66cf890: 00000000 00000000 00000000 00000000 ................
+0xa66cf8a0: 00000000 00000000 00000000 00000000 ................
+0xa66cf8b0: 108ac948 000001ea 108ac8b0 000001ea H...............
+0xa66cf8c0: 00000000 00000000 b0d0e75f 00007fff ........_.......
+0xa66cf8d0: f01bf760 000001e9 108ac91c 000001ea `...............
+0xa66cf8e0: 0000018c 000001ea 0000018a 00000000 ................
+0xa66cf8f0: b199c000 00007fff 00000001 00000000 ................
+0xa66cf900: b0d0d660 00007fff 108ac948 000001ea `.......H.......
+0xa66cf910: 108ac91c 000001ea 3f666666 43c60000 ........fff?...C
+0xa66cf920: 41500000 00000000 ca728c30 000001ed ..PA....0.r.....
+0xa66cf930: 0000002a 00000000 00000001 00000000 *...............
+0xa66cf940: 00000002 00000000 108ac9e0 000001ea ................
+0xa66cf950: 108ac9e0 000001ea b084689a 00007fff .........h......
+0xa66cf960: 108aca00 000001ea 108ac8b0 000001ea ................
+0xa66cf970: 954dc400 000001ea f0255270 000001e9 ..M.....pR%.....
+0xa66cf980: e5c08020 000001ec e5c08020 000001ec  ....... .......
+0xa66cf990: d0760010 000001e9 00000001 00000000 ..v.............
+0xa66cf9a0: 00000002 00000000 00000004 00000000 ................
+0xa66cf9b0: 00000000 00000000 00000000 00000000 ................
+0xa66cf9c0: 00000000 00000000 00000000 00000000 ................
+0xa66cf9d0: 108ac8b0 000001ea 00000000 00000000 ................
+0xa66cf9e0: b1d3e970 00007fff b0d0f5a0 00007fff p...............
+0xa66cf9f0: 108ac8b0 000001ea 0009cd32 000001e9 ........2.......
+0xa66cfa00: f0255270 000001e9 108ac8b0 000001ea pR%.............
+0xa66cfa10: 00000000 00000000 00000000 00000000 ................
+0xa66cfa20: b1d3e970 00007fff b0d0f8bc 00007fff p...............
+0xa66cfa30: 00000000 00000000 f0255270 000001e9 ........pR%.....
+0xa66cfa40: 00000000 00000000 f0255270 000001e9 ........pR%.....
+0xa66cfa50: 900c54c0 000001ea 900c5480 000001ea .T.......T......
+0xa66cfa60: a66cfa68 00000095 900c1280 000001ea h.l.............
+0xa66cfa70: 900c1240 000001ea 00000000 00000000 @...............
+0xa66cfa80: 00000000 00000000 b0d0f929 00007fff ........).......
+0xa66cfa90: f0255270 000001e9 00000000 00000000 pR%.............
+0xa66cfaa0: 00000000 00000000 00000000 00000000 ................
+0xa66cfab0: 00000000 00000000 b0d9f978 00007fff ........x.......
+0xa66cfac0: f0255270 000001e9 00000000 00000000 pR%.............
+0xa66cfad0: 00000000 00000000 00000000 00000000 ................
+0xa66cfae0: 00000000 00000000 fcf37034 00007fff ........4p......
+0xa66cfaf0: 00000000 00000000 00000000 00000000 ................
+0xa66cfb00: 00000000 00000000 00000000 00000000 ................
+0xa66cfb10: 00000000 00000000 fec42651 00007fff ........Q&......
+0xa66cfb20: 00000000 00000000 00000000 00000000 ................
+0xa66cfb30: 00000000 00000000 00000000 00000000 ................
+0xa66cfb40: 00000000 00000000 00000000 00000000 ................
+0xa66cfb50: 00000000 e18246d9 00000000 00000000 .....F..........
+0xa66cfb60: 00000000 00000000 fc64c060 00007fff ........`.d.....
+0xa66cfb70: a66ce480 00000095 003fff8e f3435c80 ..l.......?..\C.
+0xa66cfb80: 1de686b9 00007fff a66ce480 00000095 ..........l.....
+0xa66cfb90: 00000000 00000000 00000000 00000000 ................
+0xa66cfba0: 00000000 00000000 00000000 00000000 ................
+0xa66cfbb0: 00000000 00000000 00000000 00000000 ................
+0xa66cfbc0: 00000000 00000000 00000000 00000000 ................
+0xa66cfbd0: 00000000 00000000 00000000 00000000 ................
+0xa66cfbe0: 00000000 00000000 00000000 00000000 ................
+0xa66cfbf0: 00000000 00000000 00000000 00000000 ................
+0xa66cfc00: 00000000 00000000 00000000 00000000 ................
+0xa66cfc10: 00000000 00000000 00000000 00000000 ................
+0xa66cfc20: 00000000 00000000 00000000 00000000 ................
+0xa66cfc30: 00000000 00000000 00000000 00000000 ................
+0xa66cfc40: 00000000 00000000 00000000 00000000 ................
+0xa66cfc50: 00000000 00000000 00000000 00000000 ................
+0xa66cfc60: 00000000 00000000 00000000 00000000 ................
+0xa66cfc70: 00000000 00000000 00000000 00000000 ................
+0xa66cfc80: 00000000 00000000 00000000 00000000 ................
+0xa66cfc90: 00000000 00000000 00000000 00000000 ................
+0xa66cfca0: 00000000 00000000 00000000 00000000 ................
+0xa66cfcb0: 00000000 00000000 00000000 00000000 ................
+0xa66cfcc0: 00000000 00000000 00000000 00000000 ................
+0xa66cfcd0: 00000000 00000000 00000000 00000000 ................
+0xa66cfce0: 00000000 00000000 00000000 00000000 ................
+0xa66cfcf0: 00000000 00000000 00000000 00000000 ................
+0xa66cfd00: 00000000 00000000 00000000 00000000 ................
+0xa66cfd10: 00000000 00000000 00000000 00000000 ................
+0xa66cfd20: 00000000 00000000 00000000 00000000 ................
+0xa66cfd30: 00000000 00000000 00000000 00000000 ................
+0xa66cfd40: 00000000 00000000 00000000 00000000 ................
+0xa66cfd50: 00000000 00000000 00000000 00000000 ................
+0xa66cfd60: 00000000 00000000 00000000 00000000 ................
+0xa66cfd70: 00000000 00000000 00000000 00000000 ................
+0xa66cfd80: 00000000 00000000 00000000 00000000 ................
+0xa66cfd90: 00000000 00000000 00000000 00000000 ................
+0xa66cfda0: 00000000 00000000 00000000 00000000 ................
+0xa66cfdb0: 00000000 00000000 00000000 00000000 ................
+0xa66cfdc0: 00000000 00000000 00000000 00000000 ................
+0xa66cfdd0: 00000000 00000000 00000000 00000000 ................
+0xa66cfde0: 00000000 00000000 00000000 00000000 ................
+0xa66cfdf0: 00000000 00000000 00000000 00000000 ................
+0xa66cfe00: 00000000 00000000 00000000 00000000 ................
+0xa66cfe10: 00000000 00000000 00000000 00000000 ................
+0xa66cfe20: 00000000 00000000 00000000 00000000 ................
+0xa66cfe30: 00000000 00000000 00000000 00000000 ................
+0xa66cfe40: 00000000 00000000 00000000 00000000 ................
+0xa66cfe50: 00000000 00000000 00000000 00000000 ................
+0xa66cfe60: 00000000 00000000 00000000 00000000 ................
+0xa66cfe70: 00000000 00000000 00000000 00000000 ................
+0xa66cfe80: 00000000 00000000 00000000 00000000 ................
+0xa66cfe90: 00000000 00000000 00000000 00000000 ................
+0xa66cfea0: 00000000 00000000 00000000 00000000 ................
+0xa66cfeb0: 00000000 00000000 00000000 00000000 ................
+0xa66cfec0: 00000000 00000000 00000000 00000000 ................
+0xa66cfed0: 00000000 00000000 00000000 00000000 ................
+0xa66cfee0: 00000000 00000000 00000000 00000000 ................
+0xa66cfef0: 00000000 00000000 00000000 00000000 ................
+0xa66cff00: 00000000 00000000 00000000 00000000 ................
+0xa66cff10: 00000000 00000000 00000000 00000000 ................
+0xa66cff20: 00000000 00000000 00000000 00000000 ................
+0xa66cff30: 00000000 00000000 00000000 00000000 ................
+0xa66cff40: 00000000 00000000 00000000 00000000 ................
+0xa66cff50: 00000000 00000000 00000000 00000000 ................
+0xa66cff60: 00000000 00000000 00000000 00000000 ................
+0xa66cff70: 00000000 00000000 00000000 00000000 ................
+0xa66cff80: 00000000 00000000 00000000 00000000 ................
+0xa66cff90: 00000000 00000000 00000000 00000000 ................
+0xa66cffa0: 00000000 00000000 00000000 00000000 ................
+0xa66cffb0: 00000000 00000000 00000000 00000000 ................
+0xa66cffc0: 00000000 00000000 00000000 00000000 ................
+0xa66cffd0: 00000000 00000000 00000000 00000000 ................
+0xa66cffe0: 00000000 00000000 00000000 00000000 ................
+0xa66cfff0: 00000000 00000000 00000000 00000000 ................
+
+Module 1
+C:\WINDOWS\SYSTEM32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_185422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+Module 2
+C:\WINDOWS\SYSTEM32\xinput1_2.DLL
+Image Base: 0x00400000  Image Size: 0x00018000
+File Size:  83736       File Time:  2006-07-28_093108
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.14.701.0
+   ProdVer:    9.14.701.0
+
+Module 3
+C:\WINDOWS\SYSTEM32\xinput1_1.DLL
+Image Base: 0x00400000  Image Size: 0x00018000
+File Size:  83664       File Time:  2006-03-31_123948
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.12.589.0
+   ProdVer:    9.12.589.0
+
+Crash Report configuration:
+ * App Name: Temtem
+ * App Version: Unity 2019.4.14f1_df5769635aab
+ * Mono DLL: C:\Program Files (x86)\Steam\steamapps\common\Temtem\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+ * Bug Reporter App Path: 
+ * Crash Report Path: C:\Users\rqflo\AppData\Local\Temp\Crema\Temtem\Crashes
+ * Is Editor: false
+
+Crash Report metadata:
+
+Additional report files:
+ * "C:\Users\rqflo\AppData\LocalLow\Crema\Temtem\Player.log" (Output log file)
+
+
+
+== [end of error.log] ==
